@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-mag-2021, 10.31.02
+    Author     : tonet
+*/
+
+body{
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.8A6PeHuANy8JUQg_i9RqIwHaEo&pid=Api&P=0&w=263&h=165");
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+
+.titolo{
+    font-size: 170%;
+    background-color: yellow;
+}
+
+h2{
+    text-align:center;
+    font-size:200%;
+    color: red;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+  border: 3px solid orange;
+  text-align: left;
+  padding: 8px;
+  text-align:center;
+  color: red;
+}
+td{
+  border: 3px solid orange;
+  text-align: left;
+  padding: 8px;
+  text-align:center;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}

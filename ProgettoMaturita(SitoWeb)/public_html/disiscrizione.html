@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Progetto Maturità | Disiscrizione Gara</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="del-wrapper">
+            <form action="disiscrizione.php" class="form" method="POST">
+                <h2>Disiscrizione</h2>
+                <div class="input-group">
+                    <input type="text" name="cf" required>
+                    <label for="delCf">Codice Fiscale</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="nome" required>
+                    <label for="delNome">Nome</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="cognome" required>
+                    <label for="delCognome">Cognome</label>
+                </div>
+                <input type="submit" value="Disiscriviti" class="submit-btn"><br>
+            </form>
+        </div><br><br>
+    </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Progetto Maturità | Console</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="stileConsole.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="del-wrapper">
+            <form action="addGara.php" class="form" method="POST">
+                <h2>Creazione Gara</h2>
+                <div class="input-group">
+                    <input type="text" name="nomeGara" required>
+                    <label for="logGara">Nome Gara</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="categoria" required>
+                    <label for="logCategoria">Categoria Gara</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="data" required>
+                    <label for="logData">Data Programmata</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="orario" required>
+                    <label for="logOrario">Orario di Inizio</label>
+                </div>
+                <input type="submit" value="Crea" class="submit-btn"><br>
+            </form>
+        </div><br><br>
+        <div class="del-wrapper">
+            <form action="addSponsor.php" class="form" method="POST">
+                <h2>Creazione Sponsor</h2>
+                <div class="input-group">
+                    <input type="text" name="nomeSponsor" required>
+                    <label for="logSponsor">Nome Sponsor</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="percentuale" required>
+                    <label for="logPercentuale">Percentuale</label>
+                </div>
+                <input type="submit" value="Crea" class="submit-btn"><br>
+            </form>
+        </div><br><br>
+        <div class="del-wrapper">
+            <form action="addPunteggio.php" class="form" method="POST">
+                <h2>Aggiungi Punteggio</h2>
+                <div class="input-group">
+                    <input type="text" name="cf" required>
+                    <label for="logCF">Codice Fiscale Atleta</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="nome" required>
+                    <label for="logNome">Nome Atleta</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="cognome" required>
+                    <label for="logCognome">Cognome Atleta</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="punteggio" required>
+                    <label for="logPunteggio">Punteggio</label>
+                </div>
+                <input type="submit" value="Aggiungi" class="submit-btn"><br>
+            </form>
+        </div><br><br>
+        <div class="del-wrapper">
+            <form action="delGara.php" class="form" method="POST">
+                <h2>Elimina Gara</h2>
+                <div class="input-group">
+                    <input type="text" name="nomeGara" required>
+                    <label for="logGara">Nome Gara</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="data" required>
+                    <label for="logData">Data Programmata</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="orario" required>
+                    <label for="logOrario">Orario di Inizio</label>
+                </div>
+                <input type="submit" value="Elimina" class="submit-btn"><br>
+            </form>
+        </div><br>
+    </body>
+</html>
